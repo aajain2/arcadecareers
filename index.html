@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcade Careers — Company</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Fixed Left Sidebar -->
+  <aside class="side-rail">
+    <div class="rail-icons-top">
+      <button class="rail-btn" title="Pages">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <rect x="3" y="4" width="11" height="14" rx="1.5" stroke="#696864" stroke-width="1.3"/>
+          <path d="M7 2H15.5C16.33 2 17 2.67 17 3.5V14" stroke="#696864" stroke-width="1.3" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <button class="rail-btn" title="Home">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M3 9L12 3L21 9V19C21 19.53 20.79 20.04 20.41 20.41C20.04 20.79 19.53 21 19 21H5C4.47 21 3.96 20.79 3.59 20.41C3.21 20.04 3 19.53 3 19V9Z" stroke="#696864" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button class="rail-btn rail-btn-create" title="Create">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M10 5V15M5 10H15" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button class="rail-btn" title="Refresh">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M16.67 3.33V7.5H12.5" stroke="#696864" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14.75 12.5A6.67 6.67 0 1 1 15.42 7.5L16.67 7.5" stroke="#696864" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div class="rail-divider"></div>
+    </div>
+    <div class="rail-thumbnails">
+      <img src="assets/images/product-small-1.jpg" alt="" class="rail-thumb">
+      <img src="assets/images/product-small-2.jpg" alt="" class="rail-thumb">
+      <img src="assets/images/product-small-3.jpg" alt="" class="rail-thumb">
+      <img src="assets/images/product-small-4.jpg" alt="" class="rail-thumb">
+      <img src="assets/images/product-small-5.jpg" alt="" class="rail-thumb">
+      <img src="assets/images/product-small-6.jpg" alt="" class="rail-thumb">
+      <img src="assets/images/carousel-1.jpg" alt="" class="rail-thumb">
+    </div>
+  </aside>
+
+  <!-- Floating Navigation -->
+  <nav class="floating-nav">
+    <div class="nav-pill nav-logo">
+      <img src="assets/images/arcade-logo.png" alt="Arcade" class="logo-img">
+    </div>
+    <div class="nav-pill nav-center">
+      <div class="nav-actions">
+        <div class="search-bar">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M17.5 17.5L13.875 13.875M15.8333 9.16667C15.8333 12.8486 12.8486 15.8333 9.16667 15.8333C5.48477 15.8333 2.5 12.8486 2.5 9.16667C2.5 5.48477 5.48477 2.5 9.16667 2.5C12.8486 2.5 15.8333 5.48477 15.8333 9.16667Z" stroke="#9D9D9D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="search-placeholder">Search, then edit with AI</span>
+          <div class="match-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <rect x="1" y="1" width="6" height="6" rx="1" stroke="#696864" stroke-width="1.2"/>
+              <rect x="9" y="1" width="6" height="6" rx="1" stroke="#696864" stroke-width="1.2"/>
+              <rect x="1" y="9" width="6" height="6" rx="1" stroke="#696864" stroke-width="1.2"/>
+              <rect x="9" y="9" width="6" height="6" rx="1" stroke="#696864" stroke-width="1.2"/>
+            </svg>
+            Match
+          </div>
+        </div>
+        <span class="nav-or">or</span>
+        <button class="create-btn">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M10 4.16667V15.8333M4.16667 10H15.8333" stroke="#0F0F0F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Create
+        </button>
+      </div>
+    </div>
+    <div class="nav-pill nav-account">
+      <div class="account-actions">
+        <button class="icon-btn">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M10 4.58L12.67 9.17L17.5 10.21L14.17 13.75L14.82 18.75L10 16.42L5.18 18.75L5.83 13.75L2.5 10.21L7.33 9.17L10 4.58Z" stroke="#696864" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button class="icon-btn cart-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M5 1.67L2.5 5V16.67C2.5 17.11 2.68 17.52 2.99 17.85C3.31 18.17 3.72 18.33 4.17 18.33H15.83C16.28 18.33 16.69 18.17 17.01 17.85C17.32 17.52 17.5 17.11 17.5 16.67V5L15 1.67H5Z" stroke="#696864" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2.5 5H17.5" stroke="#696864" stroke-width="1.2"/>
+            <path d="M13.33 8.33C13.33 9.22 12.96 10.07 12.3 10.68C11.64 11.3 10.78 11.67 9.99 11.67C9.2 11.67 8.35 11.3 7.69 10.68C7.03 10.07 6.66 9.22 6.66 8.33" stroke="#696864" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="cart-badge">2</span>
+        </button>
+        <button class="icon-btn">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M5 1.67L2.5 5V16.67C2.5 17.11 2.68 17.52 2.99 17.85C3.31 18.17 3.72 18.33 4.17 18.33H15.83C16.28 18.33 16.69 18.17 17.01 17.85C17.32 17.52 17.5 17.11 17.5 16.67V5L15 1.67H5Z" stroke="#696864" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="avatar-pill">
+          <div class="avatar-circle"></div>
+          <svg class="avatar-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M3 4.5L6 7.5L9 4.5" stroke="#696864" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Bar -->
+  <header class="header-bar"></header>
+
+  <!-- Main Content (offset for sidebar) -->
+  <main class="page-content">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <p class="company-label">Company</p>
+      <h1 class="hero-headline">We're building the AI&#8209;native operating system for physical product creation</h1>
+      <a href="https://jobs.ashbyhq.com/arcade-ai" target="_blank" rel="noopener" class="open-roles-btn">
+        Open Roles
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3.33 8H12.67M12.67 8L8 3.33M12.67 8L8 12.67" stroke="#DEDDD5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- Horizontal Divider -->
+    <div class="hero-divider"></div>
+
+    <!-- Investor Logo Bar -->
+    <section class="investor-logos">
+      <img src="assets/images/logo-investor-1.png" alt="Investor 1" style="height: 33px;">
+      <img src="assets/images/logo-investor-2.png" alt="Investor 2" style="height: 49px;">
+      <img src="assets/images/logo-investor-3.png" alt="Investor 3" style="height: 55px;">
+      <img src="assets/images/logo-investor-4.png" alt="Investor 4" style="height: 42px;">
+      <img src="assets/images/logo-investor-5.png" alt="Investor 5" style="height: 55px;">
+    </section>
+
+    <!-- Product Image Carousel -->
+    <section class="product-carousel-section">
+      <div class="product-strip-wrap">
+        <div class="product-strip" id="productStrip">
+          <div class="product-panel" style="background-image: url('assets/images/carousel-1.jpg');"></div>
+          <div class="product-panel" style="background-image: url('assets/images/carousel-2.jpg');"></div>
+          <div class="product-panel" style="background-image: url('assets/images/carousel-3.jpg');"></div>
+          <div class="product-panel" style="background-image: url('assets/images/carousel-4.jpg');"></div>
+        </div>
+      </div>
+      <div class="progress-bars">
+        <div class="progress-track active"><div class="progress-fill"></div></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+      </div>
+    </section>
+
+    <script>
+    (function() {
+      var strip = document.getElementById('productStrip');
+      var originalPanels = Array.prototype.slice.call(strip.querySelectorAll('.product-panel'));
+      var tracks = document.querySelectorAll('.progress-track');
+      var DURATION = 5000;
+      var current = 0; // logical index (0..numOriginal-1)
+      var timer;
+      var numOriginal = originalPanels.length;
+
+      // Clone all panels and append/prepend for infinite looping
+      var clonesAfter = [];
+      var clonesBefore = [];
+      originalPanels.forEach(function(panel) {
+        var clone = panel.cloneNode(true);
+        clone.classList.add('clone');
+        clonesAfter.push(clone);
+        strip.appendChild(clone);
+      });
+      originalPanels.forEach(function(panel) {
+        var clone = panel.cloneNode(true);
+        clone.classList.add('clone');
+        clonesBefore.push(clone);
+      });
+      // Prepend clones in correct order
+      clonesBefore.reverse().forEach(function(clone) {
+        strip.insertBefore(clone, strip.firstChild);
+      });
+
+      // All panels now: [clone0..clone(n-1)] [orig0..orig(n-1)] [clone0..clone(n-1)]
+      var allPanels = strip.querySelectorAll('.product-panel');
+      var offset = numOriginal; // real index offset for original[0]
+
+      function getRealIndex(logicalIndex) {
+        return logicalIndex + offset;
+      }
+
+      function getTranslateX(realIndex) {
+        var panel = allPanels[realIndex];
+        var stripWrap = strip.parentElement;
+        var wrapCenter = stripWrap.offsetWidth / 2;
+        var panelCenter = panel.offsetLeft + panel.offsetWidth / 2;
+        return wrapCenter - panelCenter;
+      }
+
+      function updateTracks() {
+        tracks.forEach(function(t, i) {
+          t.classList.toggle('active', i === current);
+        });
+      }
+
+      function goTo(logicalIndex, animate) {
+        current = ((logicalIndex % numOriginal) + numOriginal) % numOriginal;
+        updateTracks();
+        if (animate === false) {
+          strip.style.transition = 'none';
+        } else {
+          strip.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+        }
+        strip.style.transform = 'translateX(' + getTranslateX(getRealIndex(current)) + 'px)';
+      }
+
+      // For seamless wrap: animate to clone, then instantly jump to real
+      function goToWithWrap(logicalIndex) {
+        var targetLogical = logicalIndex;
+        var realTarget;
+
+        // Determine which physical panel to animate to
+        if (targetLogical >= numOriginal) {
+          // Went past the end — animate to the clone after originals
+          realTarget = offset + targetLogical;
+          strip.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+          strip.style.transform = 'translateX(' + getTranslateX(realTarget) + 'px)';
+          current = targetLogical % numOriginal;
+          updateTracks();
+          // After animation, jump to the real panel
+          setTimeout(function() {
+            strip.style.transition = 'none';
+            strip.style.transform = 'translateX(' + getTranslateX(getRealIndex(current)) + 'px)';
+          }, 820);
+        } else if (targetLogical < 0) {
+          // Went before the start — animate to the clone before originals
+          realTarget = offset + targetLogical; // e.g. offset + (-1) = offset-1
+          strip.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+          strip.style.transform = 'translateX(' + getTranslateX(realTarget) + 'px)';
+          current = ((targetLogical % numOriginal) + numOriginal) % numOriginal;
+          updateTracks();
+          setTimeout(function() {
+            strip.style.transition = 'none';
+            strip.style.transform = 'translateX(' + getTranslateX(getRealIndex(current)) + 'px)';
+          }, 820);
+        } else {
+          goTo(targetLogical, true);
+        }
+      }
+
+      function advance() {
+        goToWithWrap(current + 1);
+      }
+
+      function startTimer() {
+        clearInterval(timer);
+        timer = setInterval(advance, DURATION);
+      }
+
+      tracks.forEach(function(track, i) {
+        track.addEventListener('click', function() {
+          goTo(i, true);
+          startTimer();
+        });
+      });
+
+      // Initial position (no animation)
+      goTo(0, false);
+      // Force reflow then re-enable transitions
+      strip.offsetHeight;
+      strip.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+      startTimer();
+
+      // Recalculate on resize
+      window.addEventListener('resize', function() {
+        strip.style.transition = 'none';
+        strip.style.transform = 'translateX(' + getTranslateX(getRealIndex(current)) + 'px)';
+        requestAnimationFrame(function() {
+          strip.style.transition = '';
+        });
+      });
+    })();
+    </script>
+
+    <!-- A Paradigm Shift Section -->
+    <section class="two-col-section paradigm-section">
+      <div class="col-left">
+        <h2>A paradigm shift</h2>
+      </div>
+      <div class="col-right">
+        <p class="body-text secondary">Arcade is the first AI physical product creation platform that lets anyone design, purchase, and sell custom, manufacturable products using natural language and generative AI. We're building the connective tissue that embeds cost, feasibility, aesthetics, and manufacturing intelligence directly into the creative process. We believe the same shift that transformed digital content is about to hit physical commerce. Shopify unlocked independent digital sellers. Canva unlocked design. Figma unlocked collaborative product building. Arcade unlocks AI&#8209;native product creation for physical goods. Backed by world-class investors including Reid Hoffman, Forerunner, Canaan, Elad Gil, and more, Arcade has enabled millions to generate physical product designs of their dreams.</p>
+      </div>
+    </section>
+
+    <!-- 3x3 Investor/Brand Grid -->
+    <section class="brand-grid">
+      <a href="https://www.forerunnerventures.com/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-1.png" alt="Forerunner"></a>
+      <a href="https://www.canaan.com/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-4.png" alt="Canaan"></a>
+      <a href="https://offline.vc/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-7.png" alt="Offline"></a>
+      <a href="https://www.adverb.vc/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-2.png" alt="Adverb"></a>
+      <a href="https://www.torchcapital.vc/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-5.png" alt="Torch Capital"></a>
+      <a href="https://www.soundventures.com/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-8.png" alt="Sound Ventures"></a>
+      <a href="https://www.inspiredcapital.com/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-3.png" alt="Inspired Capital"></a>
+      <a href="https://heretic.ventures/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-6.png" alt="Heretic"></a>
+      <a href="https://www.factorialfunds.com/" target="_blank" rel="noopener" class="grid-card"><img src="assets/images/grid-logo-9.png" alt="Factorial"></a>
+    </section>
+
+    <!-- Reid Hoffman Quote -->
+    <section class="quote-section">
+      <blockquote class="pull-quote">&ldquo;Arcade is the most broadly relevant consumer AI experience I've seen.&rdquo;</blockquote>
+      <p class="quote-attribution"><strong>Reid Hoffman</strong><br>Cofounder, LinkedIn and Partner, Greylock</p>
+    </section>
+
+    <!-- Angel Investors Carousel -->
+    <div class="investor-carousel-wrap">
+    <section class="investor-carousel">
+      <div class="investor-card">
+        <div class="investor-img-wrap">
+          <img src="assets/images/product-small-1.jpg" alt="Investor">
+        </div>
+        <div class="investor-overlay">
+          <p class="investor-name">Investor Name</p>
+          <p class="investor-bio">Title and Company</p>
+        </div>
+      </div>
+      <div class="investor-card">
+        <div class="investor-img-wrap">
+          <img src="assets/images/product-small-2.jpg" alt="Investor">
+        </div>
+        <div class="investor-overlay">
+          <p class="investor-name">Investor Name</p>
+          <p class="investor-bio">Title and Company</p>
+        </div>
+      </div>
+      <div class="investor-card">
+        <div class="investor-img-wrap">
+          <img src="assets/images/product-small-3.jpg" alt="Investor">
+        </div>
+        <div class="investor-overlay">
+          <p class="investor-name">Investor Name</p>
+          <p class="investor-bio">Title and Company</p>
+        </div>
+      </div>
+      <div class="investor-card">
+        <div class="investor-img-wrap">
+          <img src="assets/images/product-small-4.jpg" alt="Christy Turlington Burns">
+        </div>
+        <div class="investor-overlay">
+          <p class="investor-name">Christy Turlington Burns</p>
+          <p class="investor-bio">Supermodel and Founder, Every Mother Counts</p>
+        </div>
+      </div>
+      <div class="investor-card">
+        <div class="investor-img-wrap">
+          <img src="assets/images/product-small-5.jpg" alt="Investor">
+        </div>
+        <div class="investor-overlay">
+          <p class="investor-name">Investor Name</p>
+          <p class="investor-bio">Title and Company</p>
+        </div>
+      </div>
+      <div class="investor-card">
+        <div class="investor-img-wrap">
+          <img src="assets/images/product-small-6.jpg" alt="Investor">
+        </div>
+        <div class="investor-overlay">
+          <p class="investor-name">Investor Name</p>
+          <p class="investor-bio">Title and Company</p>
+        </div>
+      </div>
+    </section>
+    <p class="angel-label">Angel Investors</p>
+    </div>
+
+    <script>
+    (function() {
+      var carousel = document.querySelector('.investor-carousel');
+      // Scroll to center so cards are cut off on both sides
+      requestAnimationFrame(function() {
+        var scrollWidth = carousel.scrollWidth;
+        var clientWidth = carousel.clientWidth;
+        carousel.scrollLeft = (scrollWidth - clientWidth) / 2;
+      });
+    })();
+    </script>
+
+    <!-- Our Values Section -->
+    <section class="values-header">
+      <h2>Our values</h2>
+      <p class="body-text secondary">At Arcade, values are operating principles, not posters. They define the bar for the products we ship, the people we hire, and the kind of culture we're building. If they resonate, you'll likely feel at home here; if they don't, you probably won't — and that's by design.</p>
+    </section>
+
+    <!-- Value Cards -->
+    <section class="value-cards">
+      <div class="value-card-flip">
+        <div class="value-card-inner">
+          <div class="value-card-front" style="background-image: url('assets/images/value-speed.jpg');">
+            <h3>Speed</h3>
+          </div>
+          <div class="value-card-back" style="background-image: url('assets/images/value-speed.jpg');">
+            <p>We are operating on the bleeding edge of AI and commerce. We move quickly, but we stay intentional with cost, manufacturability, and taste. We'd rather ship, observe, and iterate than debate abstractions for weeks.</p>
+          </div>
+        </div>
+      </div>
+      <div class="value-card-flip">
+        <div class="value-card-inner">
+          <div class="value-card-front" style="background-image: url('assets/images/value-taste.jpg');">
+            <h3>Taste</h3>
+          </div>
+          <div class="value-card-back" style="background-image: url('assets/images/value-taste.jpg');">
+            <p>Our work lives at the intersection of engineering and aesthetics. We value people who can argue about model architectures and loss functions in the same breath as product photography, interior design, or jewelry detail. Beautiful systems, not just beautiful screenshots.</p>
+          </div>
+        </div>
+      </div>
+      <div class="value-card-flip">
+        <div class="value-card-inner">
+          <div class="value-card-front" style="background-image: url('assets/images/value-systems.jpg');">
+            <h3>Systems</h3>
+          </div>
+          <div class="value-card-back" style="background-image: url('assets/images/value-systems.jpg');">
+            <p>Our different products and surfaces are not separate businesses; they're one platform expressed through multiple entry points. We look for people who think in systems: how decisions in AI research affect supply chain, how marketplace UX affects community growth, how pricing models affect model design.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="two-col-section team-section">
+      <div class="col-left">
+        <h2>Our team</h2>
+      </div>
+      <div class="col-right">
+        <p class="body-text secondary">Arcade is led by Mariam Naficy, Founder and Executive Chairman of Minted, the marketplace for creative goods she built from scratch into a $300M+ profitable business, and the founder of Eve.com, the world's first beauty ecommerce site, launched in 1998. Mariam has also made early investments in companies including Reddit, Gusto, Our Place, and held board positions at Victoria's Secret, Yelp, Medium, Williams College, Stanford GSB, among others. She is joined by a team with deep experience in AI research, design systems, and supply chain from companies such as OpenAI, Google, Apple, Glean, Sierra, Stitch Fix, Gucci, Saint Laurent, Gap, Stability AI, NVIDIA, Amazon, and LinkedIn.</p>
+      </div>
+    </section>
+
+    <!-- Leadership Grid -->
+    <section class="leadership-grid">
+      <div class="leader-card" data-name="Mariam Naficy" data-role="Chief Executive Officer" data-img="assets/images/leader-mariam.jpg" data-bio="Founder Mariam Naficy has unparalleled e-commerce experience in design and fashion spaces, having founded Eve, Minted, and Arcade. Mariam sits on the board of Victoria's Secret &amp; Co.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-mariam.jpg" alt="Mariam Naficy">
+        </div>
+        <p class="leader-name">Mariam Naficy</p>
+        <p class="leader-role">Chief Executive Officer</p>
+      </div>
+      <div class="leader-card" data-name="Varun Jampani" data-role="Chief AI Officer" data-img="assets/images/leader-varun.jpg" data-bio="Varun Jampani is the Chief AI Officer at Arcade AI, leading the development of generative models that bridge the digital and physical worlds. Previously the VP of Research at Stability AI, Varun is a renowned researcher in computer vision and machine learning. He is a co-creator of industry-defining technologies including Stable Diffusion 3.5 and DreamBooth. Before joining the startup world, he held researcher positions at Google Research and NVIDIA Research.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-varun.jpg" alt="Varun Jampani">
+        </div>
+        <p class="leader-name">Varun Jampani</p>
+        <p class="leader-role">Chief AI Officer</p>
+      </div>
+      <div class="leader-card" data-name="Raghudeep Gadde" data-role="Head of AI Research" data-img="assets/images/leader-raghudeep.jpg" data-bio="Raghudeep Gadde is the Head of AI Research at Arcade. Previously at Amazon as an Applied Scientist solving for product image resolution, transformation, and visualization.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-raghudeep.jpg" alt="Raghudeep Gadde">
+        </div>
+        <p class="leader-name">Raghudeep Gadde</p>
+        <p class="leader-role">Head of AI Research</p>
+      </div>
+      <div class="leader-card" data-name="Dongxu Zhou" data-role="Head of Applied AI" data-img="assets/images/leader-dongxu.jpg" data-bio="Dongxu Zhou is the Head of Applied AI at Arcade. He joins us from Sierra, the leading AI customer service company.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-dongxu.jpg" alt="Dongxu Zhou">
+        </div>
+        <p class="leader-name">Dongxu Zhou</p>
+        <p class="leader-role">Head of Applied AI</p>
+      </div>
+      <div class="leader-card" data-name="Marcus Chung" data-role="VP, Supply Chain" data-img="assets/images/leader-marcus.jpg" data-bio="Overseeing supply chain operations at Arcade.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-marcus.jpg" alt="Marcus Chung">
+        </div>
+        <p class="leader-name">Marcus Chung</p>
+        <p class="leader-role">VP, Supply Chain</p>
+      </div>
+      <div class="leader-card" data-name="Suman Chakravartula" data-role="VP, Engineering" data-img="assets/images/leader-suman.jpg" data-bio="Leading engineering efforts at Arcade.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-suman.jpg" alt="Suman Chakravartula">
+        </div>
+        <p class="leader-name">Suman Chakravartula</p>
+        <p class="leader-role">VP, Engineering</p>
+      </div>
+      <div class="leader-card" data-name="Michael Mader" data-role="VP, Product and Analytics" data-img="assets/images/leader-michael.jpg" data-bio="Leading product strategy and analytics at Arcade.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-michael.jpg" alt="Michael Mader">
+        </div>
+        <p class="leader-name">Michael Mader</p>
+        <p class="leader-role">VP, Product and Analytics</p>
+      </div>
+      <div class="leader-card" data-name="Huy Hoang" data-role="VP, Finance and Accounting" data-img="assets/images/leader-huy.jpg" data-bio="Overseeing financial operations at Arcade.">
+        <div class="leader-img-wrap">
+          <img src="assets/images/leader-huy.jpg" alt="Huy Hoang">
+        </div>
+        <p class="leader-name">Huy Hoang</p>
+        <p class="leader-role">VP, Finance and Accounting</p>
+      </div>
+    </section>
+
+    <!-- Leader Modal -->
+    <div class="leader-modal-overlay" id="leaderModal">
+      <div class="leader-modal">
+        <button class="leader-modal-close" id="leaderModalClose">&times;</button>
+        <div class="leader-modal-img">
+          <img src="" alt="" class="leader-modal-photo">
+        </div>
+        <h3 class="leader-modal-name"></h3>
+        <p class="leader-modal-role"></p>
+        <p class="leader-modal-bio"></p>
+      </div>
+    </div>
+
+    <script>
+    (function() {
+      var modal = document.getElementById('leaderModal');
+      var closeBtn = document.getElementById('leaderModalClose');
+      var cards = document.querySelectorAll('.leader-card');
+
+      cards.forEach(function(card) {
+        card.addEventListener('click', function() {
+          var name = card.getAttribute('data-name');
+          var role = card.getAttribute('data-role');
+          var bio = card.getAttribute('data-bio');
+          var img = card.getAttribute('data-img');
+          modal.querySelector('.leader-modal-name').textContent = name;
+          modal.querySelector('.leader-modal-role').textContent = role;
+          modal.querySelector('.leader-modal-bio').textContent = bio;
+          var photo = modal.querySelector('.leader-modal-photo');
+          if (img) {
+            photo.src = img;
+            photo.alt = name;
+            photo.style.display = 'block';
+          } else {
+            photo.style.display = 'none';
+          }
+          modal.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      closeBtn.addEventListener('click', function() {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+
+      modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+    })();
+    </script>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+      <div class="benefits-card">
+        <div class="benefits-left">
+          <h2>Benefits</h2>
+          <p>At Arcade, your well&#8209;being comes first. Our benefits are built to support both your health and your long&#8209;term financial foundation.</p>
+        </div>
+        <div class="benefits-right">
+          <ul>
+            <li>Comprehensive healthcare coverage</li>
+            <li>Competitive salary and equity</li>
+            <li>Flexible time off</li>
+            <li>Mental health and wellness benefits</li>
+            <li>Daily lunch in-office</li>
+            <li>Team events</li>
+            <li>Commuter benefits</li>
+            <li>Premium hardware</li>
+            <li>Arcade retail discounts</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- In the News Section -->
+    <section class="two-col-section news-section">
+      <div class="col-left">
+        <h2>In the News</h2>
+      </div>
+      <div class="col-right news-list">
+        <div class="news-divider"></div>
+        <article class="news-item">
+          <img src="assets/images/news-logo-1.png" alt="The Information" class="news-pub-logo" style="height: 29px;">
+          <h4>Bling It On: An AI Startup Turns Shoppers Into Jewelry Designers</h4>
+          <a href="https://www.theinformation.com/articles/bling-it-on-an-ai-startup-turns-shoppers-into-jewelry-designers" target="_blank" rel="noopener" class="read-more">Read More</a>
+        </article>
+        <div class="news-divider"></div>
+        <article class="news-item">
+          <img src="assets/images/news-logo-2.png" alt="Bloomberg" class="news-pub-logo" style="height: 32px;">
+          <h4>Arcade Launches AI Marketplace</h4>
+          <a href="https://www.bloomberg.com/news/videos/2024-11-04/arcade-launches-ai-marketplace-video" target="_blank" rel="noopener" class="read-more">Read More</a>
+        </article>
+        <div class="news-divider"></div>
+        <article class="news-item">
+          <img src="assets/images/news-logo-3.png" alt="Fortune" class="news-pub-logo" style="height: 26px;">
+          <h4>First she disrupted the card business with Minted. Now Arcade AI's founder aims to build the first 'product creation platform'</h4>
+          <a href="https://fortune.com/2024/11/27/minted-founder-mariam-naficy-arcade-ai-jewelry-production-creation-platform/" target="_blank" rel="noopener" class="read-more">Read More</a>
+        </article>
+        <div class="news-divider"></div>
+        <article class="news-item">
+          <img src="assets/images/news-logo-4.png" alt="TechCrunch" class="news-pub-logo" style="height: 58px;">
+          <h4>AI creation platform Arcade expands from jewelry to home goods</h4>
+          <a href="https://techcrunch.com/2025/03/24/ai-creation-platform-arcade-expands-from-jewelry-to-home-goods/" target="_blank" rel="noopener" class="read-more">Read More</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <!-- CTA Banner -->
+    <div class="footer-cta">
+      <p class="cta-headline">Join Arcade in shaping the future of commerce and physical product creation.</p>
+      <div class="cta-buttons">
+        <a href="https://jobs.ashbyhq.com/arcade-ai" target="_blank" rel="noopener" class="cta-btn cta-btn-primary">
+          Open Roles
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3.33 8H12.67M12.67 8L8 3.33M12.67 8L8 12.67" stroke="#DEDDD5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#" class="cta-btn cta-btn-secondary">
+          Learn about Arcade
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3.33 8H12.67M12.67 8L8 3.33M12.67 8L8 12.67" stroke="#0F0F0F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Large Arcade Text -->
+    <div class="footer-arcade-text">
+      <img src="assets/images/footer-arcade-text.png" alt="Arcade" class="arcade-display-img">
+    </div>
+
+    <!-- Dark Footer -->
+    <div class="footer-dark">
+      <!-- Mission -->
+      <div class="footer-mission">
+        <p class="mission-headline">Arcade is the world's first AI product creation platform, where everything that can be dreamed of can be made.</p>
+        <p class="mission-sub">Our mission is to create magical experiences for people everywhere, using unparalleled design-to-manufacturing AI technologies.</p>
+      </div>
+
+      <!-- Navigation Columns -->
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h5>ABOUT</h5>
+          <a href="#">Team</a>
+          <a href="#">Press</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-col">
+          <h5>HELP</h5>
+          <a href="#">Contact Us</a>
+          <a href="#">How It Works</a>
+          <a href="#">Help Center & FAQ</a>
+          <a href="#">Return Policy</a>
+          <a href="#">Shipping Policies</a>
+        </div>
+        <div class="footer-col">
+          <h5>CREATE</h5>
+          <a href="#">Live Feed</a>
+          <a href="#">Dreamers</a>
+          <a href="#">My Profile</a>
+        </div>
+        <div class="footer-col">
+          <h5>EARN</h5>
+          <a href="#">Become a Seller</a>
+          <a href="#">Become a Maker</a>
+        </div>
+      </div>
+
+      <!-- Shop with Confidence -->
+      <div class="shop-confidence">
+        <svg class="shield-icon" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M12 2L3 6.5V11.5C3 17 7 21.5 12 23C17 21.5 21 17 21 11.5V6.5L12 2Z" fill="#E9E5D8"/>
+          <path d="M9 12.5L11 14.5L15 10.5" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="confidence-label">Shop with Confidence</span>
+        <span class="confidence-desc">If your product isn't as described, you'll get a full refund.</span>
+        <a href="#" class="confidence-link">Read More</a>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          <div class="footer-socials">
+            <img src="assets/images/footer-social-icons-bottom.png" alt="Social media" class="social-icons-img">
+          </div>
+          <div class="footer-legal">
+            <span>&copy;2025 Arcade Studio Inc.</span>
+            <a href="#">Privacy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+        </div>
+        <div class="footer-bbb">
+          <img src="assets/images/footer-bbb-logo.png" alt="BBB Accredited Business">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
