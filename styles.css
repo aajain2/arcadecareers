@@ -123,7 +123,6 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
   left: calc(72px + 25px);
   transform: none;
   width: calc(100vw - 72px - 50px);
-  max-width: 1172px;
   display: flex;
   justify-content: space-between;
   align-items: center;
