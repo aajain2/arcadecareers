@@ -595,7 +595,8 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
   object-fit: cover;
 }
 
-.investor-card:hover .investor-img-wrap {
+.investor-card:hover .investor-img-wrap,
+.investor-card.active .investor-img-wrap {
   width: 280px;
   height: 310px;
 }
@@ -610,7 +611,8 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
   pointer-events: none;
 }
 
-.investor-card:hover .investor-overlay {
+.investor-card:hover .investor-overlay,
+.investor-card.active .investor-overlay {
   opacity: 1;
 }
 
@@ -644,7 +646,8 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
   transition: opacity 0.3s ease;
 }
 
-.investor-carousel-wrap:has(.investor-card:hover) .angel-label {
+.investor-carousel-wrap:has(.investor-card:hover) .angel-label,
+.investor-carousel-wrap:has(.investor-card.active) .angel-label {
   opacity: 0;
 }
 
@@ -711,6 +714,8 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   overflow: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .value-card-front {
@@ -1415,6 +1420,17 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
 
   .investor-card:hover .investor-overlay {
     opacity: 0;
+  }
+
+  .investor-card.active .investor-img-wrap {
+    width: 200px;
+    height: 220px;
+  }
+
+  .investor-card.active .investor-overlay {
+    opacity: 1;
+    top: 228px;
+    width: 200px;
   }
 
   .angel-label {

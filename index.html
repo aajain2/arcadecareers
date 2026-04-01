@@ -516,6 +516,18 @@
         var clientWidth = carousel.clientWidth;
         carousel.scrollLeft = (scrollWidth - clientWidth) / 2;
       });
+
+      // Tap to show investor info on touch devices
+      var investorCards = document.querySelectorAll('.investor-card');
+      investorCards.forEach(function(card) {
+        card.addEventListener('click', function() {
+          var wasActive = card.classList.contains('active');
+          investorCards.forEach(function(c) { c.classList.remove('active'); });
+          if (!wasActive) {
+            card.classList.add('active');
+          }
+        });
+      });
     })();
     </script>
 
