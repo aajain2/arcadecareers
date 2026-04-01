@@ -692,8 +692,14 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
   transform-style: preserve-3d;
 }
 
-.value-card-flip:hover .value-card-inner {
+.value-card-flip.flipped .value-card-inner {
   transform: rotateY(180deg);
+}
+
+@media (hover: hover) {
+  .value-card-flip:hover .value-card-inner {
+    transform: rotateY(180deg);
+  }
 }
 
 .value-card-front,
@@ -1541,9 +1547,14 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
   }
 
   .investor-logos {
-    flex-direction: column;
-    gap: 16px;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 32px;
+  }
+
+  .investor-logos img {
+    height: 28px !important;
+    max-height: none;
   }
 
   .product-strip-wrap {

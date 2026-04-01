@@ -559,6 +559,17 @@
       </div>
     </section>
 
+    <script>
+    (function() {
+      var cards = document.querySelectorAll('.value-card-flip');
+      cards.forEach(function(card) {
+        card.addEventListener('click', function() {
+          card.classList.toggle('flipped');
+        });
+      });
+    })();
+    </script>
+
     <!-- Our Team Section -->
     <section class="two-col-section team-section">
       <div class="col-left">
